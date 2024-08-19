@@ -170,6 +170,7 @@ ret
 
 
 ## Result :
+Thus, Alp for fundamental arithmetic and logical operations are exected succesfully.
 
  
 
