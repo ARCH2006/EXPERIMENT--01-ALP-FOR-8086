@@ -79,23 +79,98 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 
+```
+
+org 100h
+mov ax,1234h;
+mov bx,0112h;
+add ax,bx;
+mov [1234h],ax;
+
+
+
+ret
+```
+
+
+
+
 
 
 ## Output  
- 
+ ![image](https://github.com/user-attachments/assets/202e5b32-ef6d-4f80-86cb-84d0cb0beacb)
+
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+
+org 100h
+mov ax,1101h;
+mov bx,4789h;
+sub ax,bx;
+mov [5678h],ax;
+
+
+
+ret
+```
+
+
+
+
 ## Output  
+![Screenshot 2024-08-19 085716](https://github.com/user-attachments/assets/1a3b71f9-5a5f-41d2-98b6-d0728eebfe1f)
+
+
 ## Multiplication alp 
+
+```
+
+org 100h
+mov ax,4101h;
+mov bx,2218h;
+mul ax;
+mov [5008h],ax;
+
+
+
+ret
+```
+
+
+
+
+
  ## Output  
+![Screenshot 2024-08-19 085853](https://github.com/user-attachments/assets/ce76fe10-63b0-4c9b-9e66-6ddb5c91fc02)
+
 
 
 ## Division alp 
 
+```
+
+org 100h
+mov ax,0b161h;
+mov bx,0a415h;
+div bx;
+mov [1121h],ax;
+
+
+
+ret
+```
+
+
+
+
 ## Output  
+![image](https://github.com/user-attachments/assets/17e26279-bda2-4907-869e-97465b5ae639)
+
 
 
 ## Result :
+
  
 
 
