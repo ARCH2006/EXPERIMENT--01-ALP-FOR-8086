@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : ARCHANA S
+Roll no :212223040019
+
 
 
 
@@ -166,6 +166,23 @@ ret
 
 ## Output  
 ![image](https://github.com/user-attachments/assets/17e26279-bda2-4907-869e-97465b5ae639)
+
+## or Operation
+org 100h
+
+mov SI,0532h;
+mov ax,0A23h;
+mov bx,0b13h;
+or ax,bx;
+
+
+
+
+ret
+
+## Output
+![Screenshot 2024-08-19 090951](https://github.com/user-attachments/assets/9636d4f9-b5b7-4f5a-86d9-eae674532331)
+## AND operation
 
 
 
